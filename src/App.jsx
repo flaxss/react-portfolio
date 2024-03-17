@@ -26,7 +26,7 @@ function App() {
             <div className={`transition duration-600 ${textColor} ${color} font-mono`}>
                 <Navbar changeMode={changeMode} />
                 <Content />
-                <Footer />
+                {/* <Footer /> */}
             </div>
         </>
     )

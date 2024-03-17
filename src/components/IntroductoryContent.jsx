@@ -8,8 +8,8 @@ const IntroductoryContent = ({focusDiv}) => {
                 <p className='text-sm md:text-2xl'>Hello, I am</p>
                 <p className='text-2xl md:text-5xl text-tertiary'>Jefferson Regencia</p>
                 <p className='text-lg md:text-3xl'>Experienced in Building</p>
-                <p className='text-lg md:text-3xl'>Web application with <span className='text-tertiary'>MERN</span> Stack</p>
-                <p className='text-sm md:text-lg text-tertiary'>A Backend Developer</p>
+                <p className='text-lg md:text-3xl text-justify sm:text-center'>Web application with <span className='text-tertiary'>MERN</span> Stack</p>
+                <p className='text-sm md:text-lg text-tertiary'>Focused in Backend Development</p>
             </div>
 
             <div className='mt-5 flex gap-2'>
@@ -19,7 +19,7 @@ const IntroductoryContent = ({focusDiv}) => {
                 >
                     <FileIcon />Resume
                 </button>
-                <button className='rounded-full px-5 py-2 bg-white text-primary border border-tertiary hover:text-white hover:bg-primary hover:border transition duration-500'>Contact</button>
+                <button className='rounded-full px-5 py-2 bg-white text-primary border border-tertiary hover:text-white hover:bg-tertiary hover:border transition duration-500'>Contact</button>
                 {/* <button onClick={focusDiv} className='rounded px-3 py-1 border hover:bg-tertiary'>Tech Stack</button> */}
             </div>
         </div>
