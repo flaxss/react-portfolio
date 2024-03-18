@@ -66,7 +66,7 @@ const SkillsContent = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen h-fit py-10">
             <h1 className='text-4xl font-bold mb-6'>Tech Stack</h1>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-3">
+            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-3">
                 {stacks.map((stack, index) => (
                     <TechBox key={index} stack={stack} />
                 ))}
